@@ -1,0 +1,199 @@
+body {
+  background-color: #101e36;
+}
+
+.btn-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+#btn-addtask {
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 730px;
+}
+
+.tableTaskList {
+  display: flex;
+  justify-content: center;
+}
+
+.tableTask {
+  display: flex;
+  padding: 10px 15px 10px 5px;
+  width: 40%;
+  height: 50px;
+  box-shadow: 1px 3px 7px #626262;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  background-color: white;
+  position: absolute;
+  bottom: 580px;
+  column-gap: 30px;
+}
+
+.task {
+  display: flex;
+  position: relative;
+  gap: 75px;
+}
+
+#btn-delete {
+  border: none;
+  color: #ff5252;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  flex-wrap: nowrap;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  bottom: 12px;
+}
+
+#btn-delete:hover {
+  transform: scale(1.2);
+}
+
+#btn-edit {
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  top: 14px;
+  right: 40px;
+}
+
+#btn-edit:hover {
+  transform: scale(1.2);
+}
+
+#btn-agree {
+  color: red;
+}
+
+.email {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  right: 70px;
+  bottom: 860px;
+}
+
+#logout {
+  color: #ff7272;
+  float: right;
+  position: absolute;
+  bottom: 872px;
+  right: 35px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#logout:hover {
+  transform: scale(1.2);
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 220px;
+}
+
+.emailInputBox {
+  position: relative;
+  bottom: 10px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  width: 20%;
+}
+
+.passwordInputBox {
+  position: relative;
+  top: 10px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  width: 20%;
+}
+
+#btn-login {
+  position: relative;
+  top: 25px;
+  width: 10%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+input,
+input::placeholder {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  position: relative;
+  height: 130px;
+}
+
+#btn-user {
+  position: absolute;
+  bottom: 870px;
+  left: 10px;
+}
+
+.container {
+  width: 25%;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.userimg {
+  border-radius: 50%;
+  width: 55%;
+  padding: 10px 20px 4px 30px;
+}
+
+.content-block {
+  font-size: 15px;
+  position: relative;
+  right: 35px;
+  top: 10px;
+}
+
+.user-email {
+  border-bottom: 1px solid #6b6b6b;
+  width: 150%;
+  height: 25%;
+}
+
+.loading {
+  padding: 0px 10px 10px 40px;
+  color: #626262;
+  font-size:15px ;
+}
